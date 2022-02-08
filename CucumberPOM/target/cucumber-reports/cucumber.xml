@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="29.566">
+    <testcase classname="Login page feature" name="Home page title" time="9.122">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+When user gets the title of the page........................................passed
+Then page title should be "GreenKart - veg and fruits kart".................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page feature" name="Free access link" time="8.218">
+        <system-out><![CDATA[Given user is on home page..................................................passed
+Then free access link should be displayed...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Sauce Demo feature" name="Login Scenario" time="11.856">
+        <system-out><![CDATA[Given user is on login page.................................................passed
+When user enters the username "standard_user" and password "secret_sauce"...passed
+Then user click login button................................................passed
+And home page is displayed..................................................passed
+And user adds the highest pice product to the cart..........................passed
+And user checks in the cart page............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

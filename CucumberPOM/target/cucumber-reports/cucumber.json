@@ -1,0 +1,324 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-07T13:58:09.497Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5194300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4021878900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Home page title",
+        "description": "",
+        "id": "login-page-feature;home-page-title",
+        "after": [
+          {
+            "result": {
+              "duration": 3015400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 265736300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4672767100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on home page",
+            "match": {
+              "location": "StepDefinition.HomePageSteps.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17950200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user gets the title of the page",
+            "match": {
+              "location": "StepDefinition.HomePageSteps.user_gets_the_title_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7928100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "page title should be \"GreenKart - veg and fruits kart\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GreenKart - veg and fruits kart\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.HomePageSteps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-07T13:58:18.645Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3039115800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Free access link",
+        "description": "",
+        "id": "login-page-feature;free-access-link",
+        "after": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 704005000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4369898800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on home page",
+            "match": {
+              "location": "StepDefinition.HomePageSteps.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 91754600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "free access link should be displayed",
+            "match": {
+              "location": "StepDefinition.HomePageSteps.free_access_link_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login page feature",
+    "description": "",
+    "id": "login-page-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-07T13:58:26.887Z",
+        "before": [
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.getProperty()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5703734600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Login Scenario",
+        "description": "",
+        "id": "sauce-demo-feature;login-scenario",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 456979400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4728173700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepDefinition.SauceDemoSteps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 256315900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters the username \"standard_user\" and password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 54
+                }
+              ],
+              "location": "StepDefinition.SauceDemoSteps.user_enters_the_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132645800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click login button",
+            "match": {
+              "location": "StepDefinition.SauceDemoSteps.user_click_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12964000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "home page is displayed",
+            "match": {
+              "location": "StepDefinition.SauceDemoSteps.home_page_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 283156900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user adds the highest pice product to the cart",
+            "match": {
+              "location": "StepDefinition.SauceDemoSteps.user_adds_the_highest_pice_product_to_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265119100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user checks in the cart page",
+            "match": {
+              "location": "StepDefinition.SauceDemoSteps.user_checks_in_the_cart_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Sauce Demo feature",
+    "description": "",
+    "id": "sauce-demo-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/SauceDemo.feature",
+    "tags": []
+  }
+]
